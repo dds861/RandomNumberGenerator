@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -34,12 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initView() {
         mTvRandomNumber = (TextView) findViewById(R.id.tvRandomNumber);
-        try {
-
-            mTvRandomNumber.setOnClickListener(this);
-        } catch (NumberFormatException e) {
-            Toast.makeText(this, "Enter Valid Range", Toast.LENGTH_SHORT).show();
-        }
+        mTvRandomNumber.setOnClickListener(this);
 
         mFromEt = (EditText) findViewById(R.id.et_from);
         mTillEt = (EditText) findViewById(R.id.et_till);
@@ -49,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tvRandomNumber:
+                //создаем переменную чтобы записать туда сгенерированное значение
+                String s1;
 
                 //создаем Random обьект
                 Random random = new Random();
@@ -65,24 +61,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     min = 0;
                     max = 1000;
                 } else {
-                    //если не пустые тогда считываем
+                    //если не пустые тогда инициализируем
                     min = Integer.valueOf(minText);
                     max = Integer.valueOf(maxText);
                 }
 
 
                 //Проверяем чтоб min не был больше max, если так но меняем местами их значения
-                if (min >= max) {
+                if (min > max) {
                     int tempNumber = max;
                     max = min;
                     min = tempNumber;
                 }
 
                 //генерируем случайные числа
-                long randromNumber = random.nextInt(max - min) + min;
+                long randromNumber = random.nextInt(max - min + 1) + min;
 
                 //устанавливаем новое сгенерированное число
-                String s1 = String.valueOf(randromNumber);
+                s1 = String.valueOf(randromNumber);
                 mTvRandomNumber.setText(s1);
                 break;
 
