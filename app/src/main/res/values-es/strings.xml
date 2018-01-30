@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Generador de números aleatorios</string>
+    <string name="from">de</string>
+    <string name="till">hasta</string>
+    <string name="tap_me">Pulse aquí</string>
+    <string name="select_range">Seleccionar rango:</string>
+</resources>
