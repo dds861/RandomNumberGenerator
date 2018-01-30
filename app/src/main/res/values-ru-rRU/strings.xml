@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Генератор случайных чисел</string>
+    <string name="from">от</string>
+    <string name="till">до</string>
+    <string name="tap_me">Нажми сюда</string>
+    <string name="select_range">Выбери диапозон</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zufallszahlengenerator</string>
+    <string name="from">von</string>
+    <string name="till">bis</string>
+    <string name="tap_me">Klick hier</string>
+    <string name="select_range">Auswahlbereich:</string>
+</resources>

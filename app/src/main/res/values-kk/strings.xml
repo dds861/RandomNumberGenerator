@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кездейсоқ сандардың генераторы</string>
+    <string name="from">бастап</string>
+    <string name="till">дейін</string>
+    <string name="tap_me">Мұнда басыңыз</string>
+    <string name="select_range">Ауқымды таңдау:</string>
+</resources>

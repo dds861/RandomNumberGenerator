@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Generatore di numeri casuali</string>
+    <string name="app_name">"Generatore di numeri casuali a partire dal fino Tocca qui Seleziona intervallo: "</string>
+    <string name="from">a partire dal</string>
+    <string name="tap_me">Tocca qui</string>
+    <string name="till">fino</string>
+    <string name="select_range">Seleziona intervallo:</string>
+</resources>

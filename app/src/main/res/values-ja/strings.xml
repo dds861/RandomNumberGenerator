@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">乱数発生器</string>
+    <string name="from">から</string>
+    <string name="till">まで</string>
+    <string name="tap_me">ここをタップ</string>
+    <string name="select_range">選択範囲：</string>
+</resources>

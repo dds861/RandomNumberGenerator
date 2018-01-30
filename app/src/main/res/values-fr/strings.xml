@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Générateur de nombres aléatoires</string>
+    <string name="from">de</string>
+    <string name="till">jusqu\'à</string>
+    <string name="tap_me">Appuyez ici</string>
+    <string name="select_range">Sélectionnez la plage:</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rastgele numara üreticisi</string>
+    <string name="from">itibaren</string>
+    <string name="till">kadar</string>
+    <string name="tap_me">Buraya dokunun</string>
+    <string name="select_range">Aralık seçin:</string>
+</resources>

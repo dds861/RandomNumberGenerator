@@ -2,7 +2,7 @@
     <string name="app_name">Random Number Generator</string>
     <string name="from">from</string>
     <string name="till">till</string>
-    <string name="tap_me">Tap me</string>
+    <string name="tap_me">Tap here</string>
     <string name="select_range">Select range:</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3941279894802307/3752807713</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3941279894802307/3752807713</string>
 </resources>
